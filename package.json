@@ -3,7 +3,7 @@
     "name": "isotropy-body-in-browser",
     "version": "0.0.1",
     "description": "Isotropy port of co-body that runs in the browser.",
-    "main": "dist/koa.js",
+    "main": "dist/isotropy-body-in-browser.js",
     "scripts": {
         "test": "mocha dist/test/test.js"
     },
