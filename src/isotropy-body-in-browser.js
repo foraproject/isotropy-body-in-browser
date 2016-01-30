@@ -1,10 +1,9 @@
 /* @flow */
-import type { KoaContextType } from "./flow/koa-types.js";
+import type { IncomingMessage } from "./flow/http-types";
 
-const any = async function(context: KoaContextType) : Object {
-  const req = context.req || context;
+const asyncBody = async (req: IncomingMessage) : Object => {
   const body = req.__getBody();
   return (typeof body === "string") ? body : Object.assign({}, body);
 }
 
-export default any;
+export default asyncBody;

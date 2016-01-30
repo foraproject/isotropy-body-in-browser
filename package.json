@@ -1,7 +1,7 @@
 {
   "author": "Jeswin Kumar <jeswinpk@agilehead.com>",
   "name": "isotropy-body-in-browser",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Isotropy port of co-body that runs in the browser.",
   "main": "dist/isotropy-body-in-browser.js",
   "scripts": {
@@ -25,6 +25,6 @@
     "should": "*"
   },
   "engines": { "node": ">= 0.11.9" },
-  "keywords": ["koa", "co-body", "isomorphic"],
-  "license" : "GPL-3.0+"
+  "keywords": ["isotropy", "body", "co-body", "isomorphic"],
+  "license" : "MIT"
 }
