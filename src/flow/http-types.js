@@ -1,4 +1,14 @@
 /* @flow */
+export type FormDataEntryType = {
+  fieldname: string;
+  value: string;
+  filename?: string;
+}
+
+export type FormDataType = Array<FormDataEntryType>;
+
+export type BodyType = string | FormDataType;
+
 export type IncomingMessage = {
   headers: Object;
   httpVersion: string;
@@ -7,7 +17,7 @@ export type IncomingMessage = {
   setTimeout: (msecs: number, callback: Function) => void;
   statusCode: number;
   url: string;
-  __getBody: () => Object;
+  __getBody: () => BodyType;
 }
 
 export type ServerResponse = {
