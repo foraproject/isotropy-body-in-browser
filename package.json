@@ -1,7 +1,7 @@
 {
   "author": "Jeswin Kumar <jeswinpk@agilehead.com>",
   "name": "isotropy-body-in-browser",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Isotropy port of co-body that runs in the browser.",
   "main": "dist/isotropy-body-in-browser.js",
   "scripts": {
