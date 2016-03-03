@@ -1,7 +1,7 @@
 {
   "author": "Jeswin Kumar <jeswinpk@agilehead.com>",
   "name": "isotropy-body-in-browser",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Isotropy port of co-body that runs in the browser.",
   "main": "dist/isotropy-body-in-browser.js",
   "scripts": {
@@ -9,9 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeswin/isotropy-body-in-browser.git"
+    "url": "https://github.com/nodejam/isotropy-body-in-browser.git"
   },
   "dependencies": {
+    "isotropy-interfaces": "*"
   },
   "devDependencies": {
     "isotropy-http-in-browser": "*",

@@ -1,5 +1,5 @@
 /* @flow */
-import type { IncomingMessage } from "./flow/http-types";
+import type { IncomingMessage } from "isotropy-interfaces/node/http-in-browser";
 
 const asyncBody = async (req: IncomingMessage) : Object => {
   const body = req.__getBody();
